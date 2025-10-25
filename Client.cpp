@@ -51,7 +51,7 @@ void stream(const char *ip, int port)
 int main()
 {
     const char *ip = "127.0.0.1";
-    int port = 6678;
+    int port = 6789;
     
     stream(ip, port);
     cout << "Receiving the message" << endl;
